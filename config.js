@@ -15,7 +15,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["50242067178", '𝙊𝙬𝙣𝙚𝙧 👻💥', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ["50250148981", 'NOVA 💥👻'], 
-["5492266613038"]]
+["593958989535", 'LIONS🦁']]
 
 global.mods = []
 global.prems = []

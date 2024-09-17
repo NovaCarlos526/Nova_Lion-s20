@@ -1,11 +1,11 @@
-// CÓDIGO CREADO POR GataNina-Li : https://github.com/GataNina-Li 
+
 import { createHash } from 'crypto'
 let nombre = 0, edad = 0, genero = 0, bio = 0, identidad = 0, pasatiempo = 0, registro, _registro, fecha, hora, tiempo, registrando
 let pas1 = 0, pas2 = 0, pas3 = 0, pas4 = 0, pas5 = 0  
 
 let handler = async function (m, { conn, text, command, usedPrefix }) {
 let key 
-let sinDefinir = '😿 No encontrada'
+let sinDefinir = '👻🦁 No encontrada'
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]

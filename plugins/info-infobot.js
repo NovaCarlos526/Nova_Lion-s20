@@ -68,9 +68,6 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *PREFIJO | PREFIX*
 ┃ღ *${usedPrefix}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
-┃ღ *${chats.length - groups.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CHATS DE GRUPOS | GROUP CHAT*
 ┃ღ *${groups.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -86,9 +83,6 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *VELOCIDAD | SPEED*
 ┃ღ  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
-┃ღ *${totaljadibot.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
 ┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -100,7 +94,7 @@ await conn.sendButton(m.chat, info, wm, pp, [
 ['𝙑𝙚𝙧 𝙂𝙧𝙪𝙥𝙤𝙨 | 𝙎𝙚𝙚 𝙂𝙧𝙤𝙪𝙥𝙨', '#grupolista'],
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']], null, [
-['𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', `${md}`]], fkontak)
+['Nova_Lions', `${md}`]], fkontak)
 //conn.sendFile(m.chat, gataImg, 'lp.jpg', info, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}) 
 /*let info = `
 ╭━━━━[ ${gt} ]━━━━━⬣
